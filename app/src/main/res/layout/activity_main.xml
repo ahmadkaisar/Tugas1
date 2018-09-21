@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="BIODATA"
+        android:layout_marginBottom="5dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:src="@drawable/profile"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_x="192dp"
+                android:layout_y="0dp"
+                android:text="Nama"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_x="193dp"
+                android:layout_y="42dp"
+                android:text="Ahmad Kaisar"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_x="192dp"
+                android:layout_y="62dp"
+                android:text="NIM"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_x="193dp"
+                android:layout_y="102dp"
+                android:text="A11.2016.09459"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_x="192dp"
+                android:layout_y="121dp"
+                android:text="Alamat"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_x="193dp"
+                android:layout_y="161dp"
+                android:text="Jl.Pakis II/83 Klipang Alam Permai Semarang"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_x="192dp"
+                android:layout_y="200dp"
+                android:text="Hoby"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_x="192dp"
+                android:layout_y="200dp"
+                android:text="Programming"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="364dp"
+            android:onClick="openUrl"
+            android:text="Open Url" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="315dp"
+            android:onClick="callNumber"
+            android:text="Call Number" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="266dp"
+            android:onClick="showMap"
+            android:text="Show Map" />
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
